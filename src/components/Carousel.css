@@ -1,1 +1,58 @@
-/* write down the css for Carousel in this file */
+
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .img{
+        position: absolute;
+        width: 500px;
+        height: 650px;
+    }
+    .title{
+        margin-top: 0vh;
+        position: absolute;
+        font-size:70px;
+        padding: 1vh;
+        font-weight:3vh;
+        border-radius: 20px;
+        color: black;
+        background-color: rgba(240, 248, 255, 0.525);
+        
+    }
+    .subtitle{
+        position: absolute;
+        color: black;
+        background-color: rgba(240, 248, 255, 0.525);
+        border-radius: 5px;
+        margin-top: 30vh;
+        font-size:2.75vh;
+    }
+    
+    .rightButton{
+        position: absolute;
+        right: 0;
+        margin-right: 1050px;
+        margin-top: 50vh;
+        color: aliceblue;
+    }
+    .leftButton{
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 47px;
+        color: aliceblue;
+    }
+    .rightButton:hover{
+        color: rgba(0, 0, 0, 0.289);
+    }
+    .leftButton:hover{
+        color: rgba(0, 0, 0, 0.289);
+    
+    }
+    .kkk{
+        height: 5vh;
+        width: 5vh;
+    }
+    
+    
